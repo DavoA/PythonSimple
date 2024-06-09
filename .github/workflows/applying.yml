@@ -42,6 +42,7 @@ jobs:
 
       - name: Initialize Terraform
         run: |
+            ls
             cd TerraformAction
             terraform init
       
